@@ -1,0 +1,10 @@
+16516
+
+<div id="msg"></div>
+
+<script>
+socket.io('dbToHtml',function(items){
+	$('#msg').append(items);
+});
+
+</script>
